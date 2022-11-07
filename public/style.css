@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+.card {
+    text-align: center;
+    background-color: rgb(31, 23, 31);
+    margin: 5px;
+    color: white;
+}
+.card img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+}
+.card button {
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.cart-icon {
+    text-decoration: none;
+}
+
+.inc-dec-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.inc-dec-btn .btn {
+    width: inherit;
+    margin: 10px;
+}
+
+.inc-dec-btn p {
+    margin-top: 17px;
+}
+.grand-total {
+    display: flex;
+}
+.text-input {
+    width: 500px;
+}
+.paybtn {
+    width: fit-content;
+}
